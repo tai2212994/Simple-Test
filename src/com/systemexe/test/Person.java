@@ -1,15 +1,15 @@
 package com.systemexe.test;
 
 public class Person {
-	public String Name;
+	public String name;
 	
-	public Person(String PersonName) {
-		this.Name = PersonName;
+	public Person(String name) {
+		this.name = name;
 
 	}
 	
 	public String getName() {
-        return this.Name;
+        return this.name;
     }
 
 }

@@ -1,15 +1,15 @@
 package com.systemexe.test;
 
 public class Employee extends Person{
-	public String Role;
-	public Employee(String PersonName, String Role) {
-		super(PersonName);
-		// TODO Auto-generated constructor stub
-		this.Role = Role;
+	public String role;
+	
+	public Employee(String name, String role) {
+		super(name);
+		this.role = role;
 	}
 
 	public String getRole() {
-        return this.Role;
+        return this.role;
     }
 	
 }
